@@ -1,0 +1,446 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* MY CSS */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+h2 {
+  font-size: 18px;
+
+  font-weight: bold;
+  margin-top: 40px;
+  
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color:white;
+}
+h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+h5 {
+  font-size: 10px;
+  color: red;
+  margin-top: 10px;
+}
+h6 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+p {
+  font-size: 12px;
+}
+.strong {
+  color: #ed563a;
+  font-weight: 600;
+  font-size: 30px;
+}
+.all-button {
+  background-color: #ed563a;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 40px;
+  
+}
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.flex-sa {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.head {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: linear-gradient(rgba(0, 0, 0, 0.349),rgba(255, 255, 255, 0.424));
+}
+
+header {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+
+  font-size: 16px;
+
+  color:white;
+
+  margin-left: 20px;
+}
+a:hover {
+  color: #ed563a;
+}
+.btn {
+  padding: 8px;
+  background-color: #ed563a;
+  color: white;
+  border: none;
+}
+
+/* viedo */
+video {
+  width: 100%;
+  background: linear-gradient(rgba(34, 33, 33, 0.534),rgba(34, 33, 33, 0.623));
+  position: relative;
+  
+}
+
+.hero {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+.program {
+  color: #ed563a;
+}
+.sec-2-sub-heading {
+  text-align: center;
+}
+.image-1 img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box-1-row {
+  background-color: blueviolet;
+}
+.programs-container {
+  display: flex;
+  width: 40%;
+}
+
+.inside-content {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.full-box-flex {
+  width: 90%;
+  display: flex;
+  margin-top: 30px;
+}
+.full-box-flex-2 {
+  display: flex;
+  width: 90%;
+  margin-top: 30px;
+}
+.container-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+strong {
+  color: #ed563a;
+}
+.h3-white {
+  color: white;
+  margin-bottom: 20px;
+}
+.image-2 img {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+.h4-color {
+  color: #ed563a;
+}
+.strong-blue{
+  color: blue;
+}
+.section-3 {
+  position: relative;
+}
+
+.image-sub-head {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.image-sub-head p {
+  margin-bottom: 10px;
+  color: white;
+}
+.container {
+  width: 70%;
+}
+.first-icon-box {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.left-section {
+  width: 20%;
+}
+.first-tranning h4 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.all-button-1 {
+  padding: 15px;
+  background-color: #ed563a;
+  color: white;
+  border: none;
+  width: 100%;
+}
+.right-section {
+  width: 730px;
+}
+.right-section p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.class-schedule {
+  background-image: url(./assets/schedule-bg.jpg);
+  padding-bottom: 100px;
+}
+.schedule-box {
+  padding: 20px 0px;
+}
+.schedule-box p {
+  color: white;
+}
+.Days {
+  margin-top: 50px;
+  color: white;
+}
+table {
+  border: 1px solid white;
+  color: white;
+  margin: 0 auto;
+}
+td {
+  border: 1px solid white;
+}
+th,
+td {
+  padding: 30px;
+}
+.para {
+  margin-bottom: 50px;
+}
+.extra-traning-1 {
+  border: 1px solid #cccccc;
+
+  width: 28%;
+}
+.extra-traning-big-box {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.extra-traning-1 img {
+  width: 100%;
+}
+.extra-traning-1 h5 {
+  margin-bottom: 20px;
+}
+.extra-traning-1 {
+  padding: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 60px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+iframe {
+  width: 100%;
+}
+.form-section {
+  width: 500px;
+  margin: 0 auto;
+  padding: 60px;
+
+  
+}
+textarea{
+  margin-bottom: 20px;
+}
+.form-control {
+  width: 100%;
+  padding: 8px 14px;
+  margin-bottom: 20px;
+  
+}
+
+.background-form {
+  background: url(./assets/contact-bg.jpg);
+  width: 100%;
+}
+
+.maps {
+  width: 100%;
+  
+  display: flex;
+}
+.map {
+  width: 100%;
+}
+.footer p{
+text-align: center;
+}
+.footer{
+  padding: 30px;
+}
